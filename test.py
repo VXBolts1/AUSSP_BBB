@@ -2,7 +2,8 @@
 # Create a python script you can put on the BBB later.
 # In your script, make a python class representing the device, which lets you set the device_name to a string when you initialize it.
 # Add a method to the class to flash the LED. It should accept one argument, which is the number of seconds between flashes
-
+#!/usr/bin/python
+import sys
 import serial
 
 class BBB:
